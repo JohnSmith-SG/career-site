@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tsurtsumiya.netlify.app/sitemap.xml
