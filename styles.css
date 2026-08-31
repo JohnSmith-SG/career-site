@@ -612,6 +612,15 @@ section.alt { background: var(--bg-alt); }
 }
 .tl-company a:hover { color: var(--ink); }
 .tl-desc { color: var(--ink-soft); font-size: 15px; margin: 0 0 8px; }
+.tl-desc a {
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(180, 140, 60, 0.4);
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+.tl-desc a:hover { color: var(--ink); }
 
 .tl-desc ul { margin: 10px 0 0; padding-left: 20px; }
 .tl-desc li { margin-bottom: 6px; }
