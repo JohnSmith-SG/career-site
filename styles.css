@@ -502,7 +502,7 @@ section.alt { background: var(--bg-alt); }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 12px;
+  margin: 0 0 12px;
   display: block;
 }
 
