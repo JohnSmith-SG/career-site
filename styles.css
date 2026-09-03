@@ -814,6 +814,9 @@ footer.site-footer {
   padding: 22px 0 34px;
 }
 
+footer.site-footer a { color: rgba(246, 241, 231, 0.7); text-decoration: underline; }
+footer.site-footer a:hover { color: var(--gold-bright); }
+
 /* ---------- Reveal animation ---------- */
 
 .reveal {
