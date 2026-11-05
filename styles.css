@@ -745,11 +745,13 @@ a.tg-card:focus-visible { outline: 2px solid #2b7cc9; outline-offset: 3px; }
   gap: 56px;
 }
 
+.edu-group + .edu-group { margin-top: 36px; }
 .edu-item { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
 .edu-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 .edu-item .year { color: var(--gold); font-weight: 700; font-size: 13.5px; }
 .edu-item h4 { font-family: var(--serif); font-size: 16.5px; margin: 6px 0 4px; }
 .edu-item p { color: var(--ink-soft); font-size: 14px; margin: 0; }
+.edu-item p.edu-line + p.edu-line { margin-top: 6px; }
 
 .pub-item { margin-bottom: 14px; font-size: 14.5px; color: var(--ink-soft); }
 .pub-item b { color: var(--ink); }
